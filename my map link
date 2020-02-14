@@ -1,0 +1,5 @@
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%
+my_map<-my_map%>%addMarkers(lat=-26.158632, lng= 27.903283, popup="15-Feb-2020")
+my_map
